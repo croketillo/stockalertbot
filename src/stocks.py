@@ -6,8 +6,10 @@ import logging
 import json
 import os
 
-# Configura el token de tu bot de Telegram
-TOKEN = "6795953183:AAF-f7WcaPH-lvWR5ZzzE_MZgj_sf8qqT74"
+TOKEN = os.environ.get('TELEGRAM_TOKEN')
+
+if not TOKEN:
+    raise ValueError("No se ha encontrado la variable de entorno TELEGRAM_TOKEN.")
 
 # Diccionario para almacenar configuraciones de precios
 precio_config = {}
