@@ -26,10 +26,11 @@ cd telegram-stock-alert-bot
 
 ### 2. Edit a `sample.env` File
 
-Edit sample.env and type ypur telegram token. (no rename the file)
+Edit sample.env and type ypur telegram token. and your bot password (and rename the file ".env")
 
 ```sh
 TELEGRAM_TOKEN=your-telegram-bot-token
+BOT_PASSWORD=your_bot_password_here
 ```
 
 ### 3. Deploy the Docker Container
