@@ -3,6 +3,8 @@
 
 This project is a Telegram bot that allows users to set up stock price alerts. The bot uses Yahoo Finance to get real-time stock prices and notifies users when their target price is reached.
 
+REMEMBER!!! 🤙​ If you like it, give it ​⭐
+
 ## Features
 
 - Set alerts for stock prices to notify when they go above or below a specified target.
@@ -26,7 +28,7 @@ cd telegram-stock-alert-bot
 
 ### 2. Edit a `sample.env` File
 
-Edit sample.env and type ypur telegram token. and your bot password (and rename the file ".env")
+Edit sample.env and type ypur telegram token. and your bot password (and not necesary rename to  ".env")
 
 ```sh
 TELEGRAM_TOKEN=your-telegram-bot-token
