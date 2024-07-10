@@ -3,7 +3,7 @@
 
 This project is a Telegram bot that allows users to set up stock price alerts. The bot uses Yahoo Finance to get real-time stock prices and notifies users when their target price is reached.
 
-REMEMBER!!! 🤙​ If you like it, give it ​⭐
+## REMEMBER!!! 🤙​ If you like it, give it ​⭐
 
 ## Features
 
